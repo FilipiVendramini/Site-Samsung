@@ -1,0 +1,129 @@
+/* PRODUTOS */
+.produtos h2 {
+  position: relative;
+  bottom: 170px;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+
+.produtos-lista {
+  background: #636363;
+}
+
+.ajuste {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+  height: 185px;
+}
+
+.ajuste-2 {
+  position: relative;
+  top: -30px;
+}
+
+.produtos-lista ul li {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background: black;
+  float: left;
+  width: 230px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.introducao-interna {
+  margin-bottom: 50px;
+}
+
+/* COMPRA */
+.compra {
+  background: black;
+  padding-bottom: 20px;
+}
+
+.compra h2 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #636363;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.compra h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #636363;
+  margin: 10px auto 35px auto;
+}
+
+.inputs {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.inputs label {
+  color: white;
+}
+
+.inputs input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 370px;
+  height: 35px;
+  border: 3px solid #636363;
+  background: transparent;
+}
+
+.inputs button {
+  width: 140px;
+  height: 40px;
+  color: white;
+  background: transparent;
+  border: 3px solid #636363;
+  margin-top: 20px;
+}
+
+.dados {
+  color: white;
+}
+
+.dados h3 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #636363;
+  margin-bottom: 15px;
+}
+
+.dados ul li {
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+}
+
+.modelo {
+  margin-top: 30px;
+}
+
+.modelo ul li {
+  padding: 7px;
+}
+
+.modelo ul li:nth-child(odd) {
+  background: #151515;
+}

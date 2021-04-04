@@ -1,0 +1,328 @@
+/* BOTÃO */
+.btn {
+  border: 3px solid white;
+  padding: 10px 30px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.btn.btn-preto {
+  color: black;
+  border-color: black;
+}
+
+.btn:hover {
+  color: gray;
+  border-color: gray;
+}
+
+.subtitulo {
+  color: black;
+  font-family: Arial;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding-top: 30px;
+}
+
+.subtitulo.subtitulo-branco {
+  color: white;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: black;
+  margin: 15px auto 35px auto;
+}
+
+.subtitulo.subtitulo-branco:after {
+  background: white;
+}
+
+/* HEADER */
+.header {
+  background: #636363;
+  width: 100%;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.header_menu ul li a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: white;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: white;
+}
+
+/* INTRODUÇÃO */
+.introducao {
+  width: 100%;
+  height: 360px;
+  background: url("../img/S21-ultra-maior.png") no-repeat center;
+  background-size: cover;
+  margin-top: 49px;
+  text-align: center;
+  padding-top: 70px;
+  color: white;
+}
+
+.introducao h1 {
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.quote-externo {
+  margin-bottom: 40px;
+}
+
+.quote-externo p {
+  font-family: Arial;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.quote-externo cite {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.quote-externo p:before,
+.quote-externo p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: white;
+  margin: 14px auto 22px auto;
+}
+
+/* INTRODUÇÃO INTERNA */
+.introducao-interna {
+  width: 100%;
+  height: 160px;
+  background: url("../img/introducao.png") no-repeat center;
+  background-size: cover;
+  margin-top: 79px;
+  padding-top: 30px;
+  text-align: center;
+  color: black;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: black;
+  margin: 10px auto 20px auto;
+}
+
+.introducao-interna p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* PRODUTOS */
+.produtos p {
+  font-size: 14px;
+  font-family: Georgia;
+  font-family: serif;
+}
+
+.produtos-lista li {
+  background: gray;
+  text-align: center;
+}
+
+.produtos-lista li p {
+  padding-bottom: 20px;
+}
+
+.produtos_lista li img {
+  padding: auto;
+}
+
+.call {
+  text-align: center;
+  padding-top: 30px;
+  clear: both;
+}
+
+.call p {
+  margin-bottom: 25px;
+}
+
+/* PORTFÓLIO */
+.portfolio {
+  text-align: center;
+  background: black;
+  color: white;
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+
+.portfolio p {
+  font-size: 16px;
+  font-family: Georgia;
+  font-family: regular;
+  margin-bottom: 30px;
+}
+
+.portfolio-img li:last-child {
+  margin-top: 17px;
+  margin-bottom: 50px;
+}
+
+/* QUALIDADE */
+.qualidade {
+  text-align: center;
+}
+
+.qualidade:after {
+  content: "";
+  width: 623px;
+  height: 139px;
+  display: block;
+  background: url("../img/linhas.svg") no-repeat center;
+  position: absolute;
+  top: 175px;
+  right: 170px;
+}
+
+.qualidade h2 {
+  margin-top: 30px;
+}
+
+.qualidade h3 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 110px;
+}
+
+.qualidade h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: black;
+  margin: 15px auto 35px auto;
+}
+
+.qualidade p {
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 40px;
+}
+
+/* QUEBRA */
+.quebra {
+  background: url("../img/sede.png") no-repeat center;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+}
+
+.quebra p:after,
+.quebra p::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: white;
+  margin: 15px auto 15px auto;
+}
+
+/* FOOTER */
+.footer {
+  background: black;
+  color: white;
+}
+
+.footer h2 {
+  color: #636363;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.footer h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #636363;
+  margin: 10px 0 15px 0;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  padding-bottom: 70px;
+}
+
+.footer_redes ul li a {
+  border: 3px solid #636363;
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.copy {
+  background: #636363;
+}
+
+.copy p {
+  padding: 20px;
+}
